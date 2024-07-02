@@ -38,3 +38,11 @@ window.addEventListener(
 );
 //_.throttle( 함수, 시간 (ms))
 // gsap.to(요소, 지속시간, 옵션)
+
+const fadeEls = document.querySelectorAll(".visual .fade-in");
+fadeEls.forEach(function (fadeEl, i) {
+  gsap.to(fadeEl, 1, {
+    delay: (i + 1) * 0.7,
+    opacity: 1,
+  });
+});
