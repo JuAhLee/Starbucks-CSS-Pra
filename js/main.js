@@ -20,7 +20,7 @@ const badgeEl = document.querySelector("header .badges");
 window.addEventListener(
   "scroll",
   _.throttle(function () {
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     if (window.scrollY > 500) {
       //Badge 숨기기
       gsap.to(badgeEl, 0.6, {
@@ -106,3 +106,13 @@ function floatingObject(selector, delay, size) {
 floatingObject(".floating1", 1, 15);
 floatingObject(".floating2", 0.5, 15);
 floatingObject(".floating3", 1.5, 20);
+
+const spyEls = document.querySelectorAll("section.scroll-spy");
+spyEls.forEach(function (spyEl) {
+  new ScrollMagic.Scene({
+    triggerElement: spyEl, // 보여짐 여부를 감시할 요소 지정
+    triggerHook: 0.8,
+  })
+    .setClassToggle(spyEl, "show") // 토글할 요소, 토글할 클래스
+    .addTo(new ScrollMagic.Controller());
+});
