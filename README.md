@@ -168,8 +168,9 @@
   [오픈그래프](https://ogp.me/)
 <br/>
  사이트 공유 시 필요한 내용들을 설정하는 기능입니다.
+
  <br />
- <br />
+
     ```html
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Starbucks" />
