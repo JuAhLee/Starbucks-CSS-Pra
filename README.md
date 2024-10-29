@@ -5,7 +5,7 @@
 <br>
 
 <div  align="center">
-  <img width="60%" height="350px" src="./images/starbucks.gif" alt="Starbucks Page Pra">
+  <img width="60%" height="350px" src="./images/Starbucks_Capture.gif" alt="Starbucks Page Pra">
 </div>
 
 <br>
