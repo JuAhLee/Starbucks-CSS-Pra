@@ -1,6 +1,6 @@
 <h1>☕ StarBucks 페이지 따라하기 </h1>
 
-- **배포 링크 :**  [링크](https://668a6d43101d2cc67fef2240--starbuck-css-pra.netlify.app/)
+- **배포 링크 :**  [링크](https://starbuck-css-pra.netlify.app/)
 
 <br>
 
