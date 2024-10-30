@@ -127,7 +127,7 @@
   <div id="player"></div> 
   ```
  
-
+<br>
 
   ```javascript
     // IFrame Player Api 사용 예시
@@ -171,7 +171,7 @@
 
  <br />
 
-    ```html
+    ```
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Starbucks" />
       <meta property="og:title" content="Starbucks Coffee Korea" />
